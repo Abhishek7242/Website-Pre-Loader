@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+             font-family: Arial, sans-serif;
+
+}
+.no-scroll{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+#pre-loader{
+    background-color: white;
+    opacity: 1;
+    transition: .4s;
+    background: url('https://i.pinimg.com/originals/a7/b0/15/a7b015d343ad801ad6da8c242dc6ae06.gif')no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+   top: 0;
+    /* background-size: 50%; */
+    position: fixed;
+    z-index: 100;
+}
+#website-content{
+    background: url('https://youmatter.world/app/uploads/2019/11/tech-planet.jpg')no-repeat center center/cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: white;
+height: 100vh;
+color: black;
+}
+#website-content h2{
+ color: white;
+ font-size: 100px;
+}
+#website-content button{
+    margin-top: 40px;
+background-color: red;
+cursor: pointer;
+border-radius: 10px;
+padding: 20px 40px;
+font-size: 30px;
+color: white;
+transition: .3s;
+font-weight: 700;
+}
+
+#website-content button:hover{
+background-color: rgb(190, 0, 0);
+
+}
+
+
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: transparent;
+height: 70px;
+        }
+        .navbar h1{
+       font-size: 50px;
+       font-weight: 700;
+       color: white;
+        }
+        .navbar ul {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+         
+        }
+        .navbar ul li{
+            font-size: 24px;
+      list-style: none;
+      padding: 10px;
+      color: white;
+      cursor: pointer;
+      transition: .3s;
+
+        }
+        .navbar ul li:hover{
+            color: rgb(0, 255, 255);
+
+        }
+    
+     
+
